@@ -1,0 +1,169 @@
+*{
+	margin:0 0;
+	padding:0 0; 
+}
+body{
+	font-family: arial,sans-seriff;
+	line-height: 25px;	
+}
+	
+	.wrapper{
+	    border: 0px solid red;
+	    width: 90%;
+		margin: 0 auto;
+		padding: 1% 1%;
+	
+}
+.clearfix:after {
+	content:" ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+/*CSS for Header*/
+.header{
+	background-color: darkblue;
+	color: white;	
+}
+/*CSS for Menu*/
+.menu ul{
+	list-style-type: none;
+}
+.menu ul a{
+	color: darkblue;
+	text-decoration: none;
+	padding: 1% ;
+}
+.menu ul a:hover{
+	background-color: darkblue;
+	color: white;
+}
+.menu ul a li{
+	display: inline;
+}
+/*CSS for Slider*/
+.slider{
+	margin: 2% auto;
+}
+
+/*CSS for Main Body*/
+.menu{
+	margin: 1% 0;
+}
+.main h3{
+	color: purple;
+}
+.software{
+	width: 23%;
+	border: 0px solid green;
+	margin: 1px;
+	float: left;
+	text-align: center;
+}
+.software:hover{
+	box-shadow: 0 0 3px 3px orange;
+}
+.software img{
+		width: 100%;
+		
+}
+.software .software-title{
+	font-weight: bold;
+	color: darkred;
+	padding: 1%;	
+}
+.software-course-fees-detail{
+	font-size: 120%;
+	color: goldenrod;
+}
+.software .software-started,.software .software-location{
+	font-weight: bold;
+	color: darkgreen;
+	padding: 1%;
+}
+.software .btn-join {
+	padding: 3%;
+	margin: 3%;
+	background-color: grey;
+	color: white;
+	border: none;
+}
+
+.software .btn-join:hover{
+	background-color: blue;
+}
+.main .join-now img{
+	width: 50%;
+	float: left;
+	margin: 2% 2% 2% 0;
+	
+}
+.main .join-now h3{
+	text-align: center;
+	margin-bottom: 2%;
+	text-decoration: underline;
+}
+.main .join-now p{
+    text-align: justfy;
+    padding: 1%
+	line-height: 30px;
+	color: #394d6d;
+}
+.main .joining-details{
+	width: 50%;
+	margin: 0 auto;
+	border: 2px solid darkblue;
+	padding: 2%;
+	margin: 2% auto;
+}
+.main .joining-details h3{
+	margin-bottom: 2%;
+}
+.main .joining-details .name{
+	width: 20%;
+	float: left;
+}
+.main .joining-details input[type='text'],.main .joining-details input[type='email'],
+.main .joining-details input[type='tel'],.main .joining-details input[type='password'],
+.main .joining-details textarea{
+	padding: 1%;
+	margin: 0.5%;
+	width: 75%;
+}
+.main .joining-details input[type='submit']
+{
+	padding: 2%;
+	background-color: #4cce52;
+	color: white;
+	border: none;
+	margin-left: 21%;
+}
+.main .joining-details input[type='submit']:hover{
+	box-shadow: 0 0 3px 2px grey;
+}
+.main .joining-details input[type='reset']:hover{
+	box-shadow: 0 0 3px 2px grey;
+}
+.main .joining-details input[type='reset']
+{
+	padding: 2%;
+	background-color: #f26e57;
+	color: white;
+	border: none;
+	}
+/*CSS for Footer*/
+.footer{
+	margin: 1% 0;
+	background-color: darkblue;
+	color: white;
+}
+.footer p{
+	text-align: center;
+}
+.footer p a{
+	color: lightblue;
+}
+.footer p a:hover{
+	text-decoration: none;
+}
